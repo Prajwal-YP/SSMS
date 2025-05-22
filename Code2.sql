@@ -11,7 +11,7 @@ VALUES
 (0),(1),(0),(1),(0),
 (1),(1),(0),(1),(1)
 
-SELECT * 
+SELECT Id,SeatNumber
 FROM #SeatDetails
 
 ;WITH CTE AS(
